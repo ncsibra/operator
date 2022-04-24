@@ -1,0 +1,8 @@
+apiVersion: test.origoss.com/v1alpha1
+kind: Sensitive
+metadata:
+  name: sensitive-sample2
+  namespace: default
+spec:
+  key: password-key
+  value: something

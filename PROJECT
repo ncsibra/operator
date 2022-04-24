@@ -1,0 +1,16 @@
+domain: origoss.com
+layout:
+- go.kubebuilder.io/v3
+projectName: operator
+repo: github.com/ncsibra/operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: origoss.com
+  group: test
+  kind: Sensitive
+  path: github.com/ncsibra/operator/api/v1alpha1
+  version: v1alpha1
+version: "3"
